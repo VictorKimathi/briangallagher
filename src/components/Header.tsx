@@ -41,7 +41,7 @@ const Header = () => {
             </Link>
           ))}
           <a
-            href="/resume.pdf"
+            href="/resume.docx"
             download
             className="ml-4 px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition"
           >
