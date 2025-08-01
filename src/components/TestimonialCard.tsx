@@ -33,7 +33,10 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           <p className="font-semibold">{name}</p>
           <p className="text-gray-600">{title}</p>
         </div>
+        
       </div>
+      <div className="text-4xl text-[#F79D0C] font-serif mb-4">"</div>
+      
     </div>;
 };
 export default TestimonialCard;
