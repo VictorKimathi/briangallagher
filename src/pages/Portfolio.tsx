@@ -5,7 +5,7 @@ const portfolioItems = [{
   id: 1,
   title: 'How To Upcycle A Kiddie Pool Into A Tranquil Garden Water Wall',
   description: "Upcycling a kiddie pool into a garden water wall may sound unconventional, but it’s a simple, low-cost way to introduce flowing water to a garden or patio. No digging. No expensive kits. Just a shallow plastic pool repurposed as a concealed base for a vertical cascade.",
-  imageUrl: 'https://www.pexels.com/photo/a-boy-playing-in-a-pool-with-a-basketball-27594323/?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80',
+  imageUrl: 'https://www.pexels.com/photo/a-boy-playing-in-a-pool-with-a-basketball-27594323',
   articleUrl: 'How_To_Upcycle_A_Kiddie_Pool.pdf',
   category: 'DIY Upcycling & Outdoor Décor'
 }, {
