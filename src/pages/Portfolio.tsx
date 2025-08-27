@@ -3,76 +3,25 @@ import PortfolioCard from '../components/PortfolioCard';
 // Sample portfolio data
 const portfolioItems = [{
   id: 1,
-  title: 'The Hidden Trails of Northern California',
-  publication: 'Wild Root Journal',
-  description: "An exploration of lesser-known hiking paths that offer stunning views and solitude in Northern California's wilderness.",
+  title: 'How To Upcycle A Kiddie Pool Into A Tranquil Garden Water Wall',
+  description: "Upcycling a kiddie pool into a garden water wall may sound unconventional, but it’s a simple, low-cost way to introduce flowing water to a garden or patio. No digging. No expensive kits. Just a shallow plastic pool repurposed as a concealed base for a vertical cascade.",
   imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80',
-  articleUrl: '#',
-  category: 'Outdoor Adventure'
+  articleUrl: 'How_To_Upcycle_A_Kiddie_Pool.pdf',
+  category: 'DIY Upcycling & Outdoor Décor'
 }, {
   id: 2,
-  title: 'Sustainable Composting for Small Spaces',
-  publication: 'Green Living Today',
-  description: 'A practical guide to setting up and maintaining effective composting systems in urban apartments and small yards.',
+  title: 'Why Ticks Are Thriving in Suburban Backyards (and What That Means for You)',
+  description: 'Ticks used to be something you worried about on a hiking trail, not while planting tomatoes or kicking a ball around the backyard. But that’s changing fast. In recent years, more homeowners are reporting tick bites right outside their doors, often without venturing beyond the yard.',
   imageUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-  articleUrl: '#',
-  category: 'Homesteading & Gardening'
+  articleUrl: 'Why_Ticks_Are_Thriving_in_Suburban_Backyards,pdf',
+  category: 'Pest Control & Outdoor Health'
 }, {
   id: 3,
-  title: 'DIY Rainwater Collection Systems',
-  publication: 'Sustainable Home Magazine',
-  description: 'Step-by-step instructions for building effective and affordable rainwater harvesting systems for home use.',
+  title: 'Backyard Projects That Attract Songbirds All Year Long',
+  description: 'Songbirds bring color, movement, and life to a backyard. Their presence can also improve a garden’s health by controlling insects and helping with pollination. However, attracting them requires providing food, water, and shelter in ways that meet their needs year-round. Since many birds rely on consistent resources, creating spaces that support them in every season is essential if you want them to visit regularly.',
   imageUrl: 'https://images.unsplash.com/photo-1534269222346-5a896154c41d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-  articleUrl: '#',
-  category: 'Eco-Conscious & DIY Living'
-}, {
-  id: 4,
-  title: 'Essential Gear for Winter Backpacking',
-  publication: 'Outside & In Magazine',
-  description: 'A comprehensive guide to selecting the right equipment for safe and comfortable multi-day hiking trips in cold weather conditions.',
-  imageUrl: 'https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80',
-  articleUrl: '#',
-  category: 'Outdoor Adventure'
-}, {
-  id: 5,
-  title: "Beginner's Guide to Permaculture Gardening",
-  publication: 'Grow Magazine',
-  description: 'An introduction to permaculture principles and how to apply them in your home garden for sustainable, low-maintenance food production.',
-  imageUrl: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-  articleUrl: '#',
-  category: 'Homesteading & Gardening'
-}, {
-  id: 6,
-  title: 'Living Off-Grid: A Month in a Tiny House',
-  publication: 'Minimalist Living',
-  description: 'A personal account of spending a month in an off-grid tiny home, with insights on sustainable living practices and challenges.',
-  imageUrl: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80',
-  articleUrl: '#',
-  category: 'Eco-Conscious & DIY Living'
-}, {
-  id: 7,
-  title: "Wildlife Tracking Basics: Reading Nature's Signs",
-  publication: 'Nature Observer Quarterly',
-  description: 'An introduction to identifying and interpreting animal tracks and signs in various environments.',
-  imageUrl: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1574&q=80',
-  articleUrl: '#',
-  category: 'Outdoor Adventure'
-}, {
-  id: 8,
-  title: 'Seasonal Planting Guide for the Pacific Northwest',
-  publication: 'Regional Gardening',
-  description: 'A month-by-month guide to what, when, and how to plant for optimal harvests in the unique climate of the Pacific Northwest.',
-  imageUrl: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80',
-  articleUrl: '#',
-  category: 'Homesteading & Gardening'
-}, {
-  id: 9,
-  title: 'Building a Solar Oven from Recycled Materials',
-  publication: 'DIY Sustainable Projects',
-  description: 'Step-by-step instructions for creating an effective solar oven using commonly available recycled materials.',
-  imageUrl: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80',
-  articleUrl: '#',
-  category: 'Eco-Conscious & DIY Living'
+  articleUrl: 'Backyard_Projects_That_Attract_Songbirds_All_Year_Long.pdf',
+  category: 'Wildlife Gardening & Backyard Projects'
 }];
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState<string>('All');
