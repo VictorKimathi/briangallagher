@@ -12,7 +12,7 @@ const portfolioItems = [{
   id: 2,
   title: 'Why Ticks Are Thriving in Suburban Backyards (and What That Means for You)',
   description: 'Ticks used to be something you worried about on a hiking trail, not while planting tomatoes or kicking a ball around the backyard. But that’s changing fast. In recent years, more homeowners are reporting tick bites right outside their doors, often without venturing beyond the yard.',
-  imageUrl: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+  imageUrl: 'er.jpg',
   articleUrl: 'Why_Ticks_Are_Thriving_in_Suburban_Backyards,pdf',
   category: 'Pest Control & Outdoor Health'
 }, {
